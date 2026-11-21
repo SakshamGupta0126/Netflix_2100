@@ -1,0 +1,52 @@
+{
+  "n_titles": 8807,
+  "n_movies": 6131,
+  "n_tv_shows": 2676,
+  "pct_movies": 69.6,
+  "date_range_added": [
+    "2008-01-01",
+    "2021-09-25"
+  ],
+  "release_year_range": [
+    1925,
+    2021
+  ],
+  "peak_year_added": 2019,
+  "peak_year_titles": 2016,
+  "pct_added_2016_2020": 81.4,
+  "median_movie_runtime_min": 98.0,
+  "pct_tv_single_season": 67.0,
+  "max_seasons": 17,
+  "top5_countries": {
+    "United States": 3690,
+    "India": 1046,
+    "United Kingdom": 806,
+    "Canada": 445,
+    "France": 393
+  },
+  "us_share_of_country_tagged_pct": 46.3,
+  "pct_missing_country": 9.4,
+  "pct_missing_director": 29.9,
+  "pct_adult_rated_of_rated": 46.0,
+  "median_years_to_netflix": 1.0,
+  "statistical_tests": {
+    "runtime_vs_release_year_spearman": {
+      "rho": -0.191,
+      "p": 1.753667855691508e-51,
+      "n": 6131
+    },
+    "adult_vs_kids_family_runtime_mannwhitney": {
+      "adult_median": 98.0,
+      "kids_family_median": 90.0,
+      "p": 2.4426259391068693e-44,
+      "n_adult": 2862,
+      "n_kids_family": 1269
+    },
+    "type_vs_rating_group_chi2": {
+      "chi2": 228.0,
+      "dof": 4,
+      "p": 3.473389237604584e-48,
+      "cramers_v": 0.161
+    }
+  }
+}
